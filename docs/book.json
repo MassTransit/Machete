@@ -1,0 +1,28 @@
+{
+    "gitbook" : "3.2.2",
+    "title" : "Machete",
+    "root" : "docs",
+    "author" : "Chris Patterson, Albert L. Hives",
+    "plugins": [
+        "edit-link",
+        "prism",
+        "-highlight",
+        "github",
+        "anchorjs",
+        "expandable-chapters"
+      ],
+      "pluginsConfig": {
+        "edit-link": {
+          "base": "https://github.com/MassTransit/Machete/tree/master/docs",
+          "label": "Edit This Page"
+        },
+        "github": {
+          "url": "https://github.com/MassTransit/Machete/"
+        },
+        "theme-default": {
+          "styles": {
+            "website": "build/gitbook.css"
+          }
+        }
+    }
+}
